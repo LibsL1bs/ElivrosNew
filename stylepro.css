@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    /* flex-wrap: wrap; */
+    background-color: #f5f5dc;
+}
+
+#root{
+    height: 100%;
+    width: 100%;
+    background-color:#f5f5dc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 20px; */
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f5f5dc;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+    
+#logo{
+    border-radius: 25px;    
+    
+}
+
+#pesquisa{
+    width: 700px;
+    height: 30px;
+    text-align: center;
+    background-color: #b2dafd;
+    border-radius: 15px;
+    border: none;
+    }
+    
+
+#menu{
+border-radius: 25px;
+}
+
+#conteudo{
+    height: 100%;
+    display: flex;
+}
+
+#imagediv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 50px;
+}
+#left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+
+
+#resenha{
+    width: 100%;
+    height: 100%;
+    background-color: #b2dafd;
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    padding-left: 300px;
+    border-radius: 5px;
+    /*height: fixed;
+    overflow-y: scroll;*/
+}
+
+#textor{
+    position: relative;
+    right: 200px;
+    bottom: 200px;
+}
+#nada{
+    position: relative;
+    right: 200px;
+    bottom: 100px;
+}
+
+#favoritos,#usuario{
+border-radius: 25px;
+}
+
+footer{
+    background-color: #b2dafd;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 10px;
+    width: 100%;
+}
+
+#bt{
+    padding: 10px;
+    border-radius: 15%;
+}
+
+#image{
+    height: 150px;
+    width: 150px;
+}
+
+#usuariotexto{
+    display: flex;
+    flex-direction: column;
+    justify-content:right;
+    padding-left: 300px;
+}
+
+#esquerdo{
+    background-color:#b2dafd;
+    width: 300px;
+    border-radius: 5%;
+    height:200px ;
+}
+
+#conteudo{
+    padding: 30px;
+}
+
+#item{
+    gap: 60%;
+}
