@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+
+#root{
+    height: 100%;
+    background-color: #b2dafd;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f5f5dc;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+    
+#logo{
+    border-radius: 25px;
+}
+
+#pesquisa{
+    width: 700px;
+    height: 30px;
+    text-align: center;
+    background-color: #b2dafd;
+    border-radius: 15px;
+    border: none;
+}
+
+#lupa, #menu, #favoritos, #usuario
+{
+    border-radius: 25px;
+}
+
+main{
+    height: 100%;
+    display: flex;
+    gap: 18px;
+
+    padding-top: 10px;
+}
+
+#esquerdo{
+    /* flex: 1; */
+    height: fixed;
+    width: 30%;
+    background-color: #f5f5dc;
+    display: flex;
+    border-radius: 15px;
+    overflow-y: scroll;
+}
+
+section{
+     flex: 3; 
+    height: 100%;
+    width: 70%;
+    background-color: #f5f5dc;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+#divergente{
+    padding-top: 10px;
+    background-color: #0000ff;
+
+}
+
+#potter{
+    
+
+background-color: #00ff3c;
+}
+
+#morreu{
+background-color: #ff000d;
+}
+
+#maus{
+background-color: #d9ff00;
+}
+
+footer{
+background-color: #fb00ff;
+}
